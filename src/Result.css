@@ -1,0 +1,54 @@
+.resultBox{
+    color: white;
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vh;
+    margin-top: 3%;
+}
+.playerMove>h2{
+    font-size:xx-large;
+}
+.playerMove{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+}
+.iconBox{
+    height: max-content;
+    background-color: white;
+    padding: 13%;
+    border-radius: 50%;
+    border: 2vh solid;
+    border-color: rgba(43, 105, 145, 0.703);
+}
+.result{
+    margin: auto;
+    justify-self: center;
+    height: 10vh;
+    /* width: 50vw; */
+    /* border: 1px solid red; */
+    background-color: rgb(47, 64, 95);
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.playAgainBTN{
+    color: white;
+    font-size:medium;
+    padding: 7% 15%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.playAgainBTN:hover{
+    background-color: white;
+    color: rgb(47, 64, 95);
+}
